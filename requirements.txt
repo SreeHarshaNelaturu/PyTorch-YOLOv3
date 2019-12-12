@@ -1,3 +1,4 @@
+matplotlib
 runway-python==0.5.4
 torch>=1.0
 torchvision
