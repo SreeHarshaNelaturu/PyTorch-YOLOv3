@@ -35,8 +35,8 @@ def weights_init_normal(m):
 
 def rescale_boxes(boxes, current_dim):
     """ Rescales bounding boxes to the original shape """
-    orig_h, orig_w = 416, 416
-    
+    original_shape = [416, 416]
+    orig_h, orig_w = original_shape 
     # The amount of padding that was added
     pad_x = max(orig_h - orig_w, 0) * (current_dim / max(original_shape))
     pad_y = max(orig_w - orig_h, 0) * (current_dim / max(original_shape))
