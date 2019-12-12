@@ -1,9 +1,7 @@
-numpy
+runway-python==0.5.4
 torch>=1.0
 torchvision
-matplotlib
 tensorflow
-tensorboard
+tensorboard==1.14.0
 terminaltables
 pillow
-tqdm
