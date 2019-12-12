@@ -2,7 +2,5 @@ matplotlib
 runway-python==0.5.4
 torch>=1.0
 torchvision
-tensorflow
-tensorboard==1.14.0
 terminaltables
 pillow
